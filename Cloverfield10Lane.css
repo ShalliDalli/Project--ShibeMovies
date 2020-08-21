@@ -85,6 +85,11 @@ align-items:center;
 {
 
 width:750px;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
+                margin-top:-150px;
 
 }
 
@@ -124,6 +129,7 @@ margin: 15px 0 20px;
   text-decoration:none;
 letter-spacing:2;
 font-size:1.2em;
+margin-top:10px;
 
 }
 

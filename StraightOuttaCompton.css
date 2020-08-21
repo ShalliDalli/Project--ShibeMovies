@@ -85,6 +85,11 @@ align-items:center;
 {
 
 max-width:550px;
+margin-top:-150px;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -110,7 +115,9 @@ font-weight:300;
 letter-spacing:0.02em;
 line-height:1.5em;
 color:white;
-margin: 15px 0 35px;
+
+
+
 }
 
 .play{
@@ -124,6 +131,8 @@ margin: 15px 0 35px;
   text-decoration:none;
 letter-spacing:2;
 font-size:1.2em;
+margin-top:20px;
+
 
 }
 

@@ -86,6 +86,7 @@ align-items:center;
 
 max-width:550px;
 
+
 }
 
 .banner .content h2{
@@ -94,13 +95,17 @@ text-transform:uppercase;
 font-weight:400;
 letter-spacing:0.1em;
 color:#fff;
+margin-top:-150px;
 
 }
 
 .banner .content h2 span{
 
 font-weight:800;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 .banner .content p
@@ -111,6 +116,10 @@ letter-spacing:0.02em;
 line-height:1.5em;
 color:white;
 margin: 15px 0 35px;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 .play{
@@ -124,6 +133,10 @@ margin: 15px 0 35px;
   text-decoration:none;
 letter-spacing:2;
 font-size:1.2em;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -174,7 +187,7 @@ right:10px;
 left: calc(50%-250px/2);
 width:250px;
 height:150px;
-background: url(Room/Room.png);
+background: url(Roomimg/Room.png);
 background-size:cover;
 cursor:pointer;
 animation: animate 25s linear infinite;
@@ -562,7 +575,7 @@ color:#fff;
 left:0px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -577,7 +590,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -592,7 +605,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -607,7 +620,7 @@ align-items:space-between;
 left:-10px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -622,7 +635,7 @@ align-items:space-between;
 left:10px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -637,7 +650,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -652,7 +665,7 @@ align-items:space-between;
 left:-18px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;

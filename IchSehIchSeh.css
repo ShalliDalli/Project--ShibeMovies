@@ -87,7 +87,10 @@ align-items:center;
 
 max-width:550px;
 margin-top:-185px;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -121,13 +124,17 @@ margin: 15px 0 35px;
   display:inline-flex;
   justify-content:flex-start;
   align-items:center;
-  color:black;
+  color:white;
   text-transform:uppercase;
   font-weight:500;
   text-decoration:none;
 letter-spacing:2;
 font-size:1.2em;
-
+margin-top:-40px;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -135,6 +142,7 @@ font-size:1.2em;
 
 margin-right:10px;
 max-width:50px;
+
 
 }
 
@@ -530,35 +538,50 @@ justify-content:center;
 align-items:center;
 border-radius:50%;
 
+
 }
 
 .percent .number h2{
 
-color:#777;
+color:white;
 font-weight:700;
 font-size:20px;
 transition:0.5s;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 .card:hover .percent .number h2{
 
-color:#fff;
+color:white;
 font-size:30px;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
 .percent .number h2 span{
 
 font-size:14px;
-color:#777;
+color:white;
 transition:0.5s;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 .card:hover .percent .number h2 span{
 
 color:#fff;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -566,7 +589,7 @@ color:#fff;
 left:0px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -574,6 +597,10 @@ text-transform:uppercase;
 transition:0.5s;
 justify-content:center;
 align-items:space-between;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -581,7 +608,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -589,6 +616,10 @@ text-transform:uppercase;
 transition:0.5s;
 justify-content:center;
 align-items:space-between;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -596,7 +627,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -604,6 +635,10 @@ text-transform:uppercase;
 transition:0.5s;
 justify-content:center;
 align-items:space-between;
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 
 }
 
@@ -611,7 +646,7 @@ align-items:space-between;
 left:-10px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -619,14 +654,17 @@ text-transform:uppercase;
 transition:0.5s;
 justify-content:center;
 align-items:space-between;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 .text5{
 left:10px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -634,14 +672,17 @@ text-transform:uppercase;
 transition:0.5s;
 justify-content:center;
 align-items:space-between;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 .text6{
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -649,14 +690,17 @@ text-transform:uppercase;
 transition:0.5s;
 justify-content:center;
 align-items:space-between;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 .text7{
 left:-18px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -664,7 +708,10 @@ text-transform:uppercase;
 transition:0.5s;
 justify-content:center;
 align-items:space-between;
-
+text-shadow:  1px  1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
 }
 
 svg{

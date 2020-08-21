@@ -85,6 +85,7 @@ align-items:center;
 {
 
 max-width:550px;
+margin-top:-180px;
 
 }
 
@@ -124,7 +125,7 @@ margin: 15px 0 35px;
   text-decoration:none;
 letter-spacing:2;
 font-size:1.2em;
-
+margin-top:10px;
 }
 
 .play img{
@@ -562,7 +563,7 @@ color:#fff;
 left:0px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -577,7 +578,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -592,7 +593,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -607,7 +608,7 @@ align-items:space-between;
 left:-10px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -622,7 +623,7 @@ align-items:space-between;
 left:10px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -637,7 +638,7 @@ align-items:space-between;
 left:20px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -652,7 +653,7 @@ align-items:space-between;
 left:-18px;
 top:-30px;
 position:relative;
-color:#777;
+color:white;
 font-weight:700;
 font-size:18px;
 letter-spacing:1px;
@@ -674,12 +675,11 @@ z-index:1000;
 
 .card:hover .text{
 
-color:#fff;
+color:white;
 
 }
 
 svg circle{
-
 
 fill:none;
 stroke:#191919;
@@ -699,7 +699,7 @@ stroke-dashoffset:280;
 
 .container .card:nth-child(1) svg circle:nth-child(2){
 
-stroke-dashoffset: calc(280 - (280 * 70 ) / 100);
+stroke-dashoffset: calc(280 - (280 * 100 ) / 100);
 stroke:#FFFFFF;
 
 
@@ -708,13 +708,13 @@ stroke:#FFFFFF;
 .container .card:nth-child(2) svg circle:nth-child(2){
 
 stroke:#FFFFFF;
-stroke-dashoffset: calc(280 - (280 * 90) / 100);
+stroke-dashoffset: calc(280 - (280 * 100) / 100);
 }
 
 .container .card:nth-child(3) svg circle:nth-child(2){
 
 stroke:#FFFFFF;
-stroke-dashoffset: calc(280 - (280 * 70) / 100);
+stroke-dashoffset: calc(280 - (280 * 100) / 100);
 
 }
 
@@ -735,13 +735,13 @@ stroke-dashoffset: calc(280 - (280 * 100 ) / 100);
 .container2 .card:nth-child(3) svg circle:nth-child(2){
 
 stroke:#FFFFFF;
-stroke-dashoffset: calc(280 - (280 * 50) / 100);
+stroke-dashoffset: calc(280 - (280 * 100) / 100);
 
 }
 
 .container2 .card:nth-child(4) svg circle:nth-child(2){
 
 stroke:#FFFFFF;
-stroke-dashoffset: calc(280 - (280 * 80 ) / 100);
+stroke-dashoffset: calc(280 - (280 * 100 ) / 100);
 
 }
